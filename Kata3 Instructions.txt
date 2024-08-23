@@ -1,33 +1,33 @@
-Kata3 en påbyggnad av Kata2
+Kata3 en pÃ¥byggnad av Kata2
 
-Vi ska enkapsulara en lista<DateTime> i en klass VariousDates och göra några enklare 
-metoder på klassen och listan i klassen.
+Vi ska enkapsulara en lista<DateTime> i en klass VariousDates och gÃ¶ra nÃ¥gra enklare 
+metoder pÃ¥ klassen och listan i klassen.
 
 Uppgifter:
 1. Deklarara ett Interface IVariousDates som definierar
-	- Metod, Count, som räknar antalet skapade datum i en viss månad
+	- Metod, Count, som rÃ¤knar antalet skapade datum i en viss mï¿½nad
 	- Metod, Count, som returnerar totala antalet datum skapade
 	- Metod, Sort, som sorterar datum en lista
 
-1a. Skriva några program rader i Main som använder metoderna
+1a. Skriva nÃ¥gra program rader i Main som anvï¿½nder metoderna
 
 2. Implementera IVariousDates i en class, VariousDates 
-3. Här ska ni kunna kompilera (inte köra) programmet utan röda wigglar
+3. HÃ¤r ska ni kunna kompilera (inte kÃ¶ra) programmet utan rÃ¶da wigglar
 
 4. I VariousDates 
 	- Skapa en lista av DateTime
 	- Skapa en constructor som skapar ett antal element i listan med random datum
-	- Override ToString() för att skriva Datum 5 per rad
+	- Override ToString() fï¿½r att skriva Datum 5 per rad
 5. I Program skapa en instans av VariousDates och skriv ut den
 6. Implementera Count och Sort
-7. Skriv några kodrader i Program som testar Count och Sort
+7. Skriv nÃ¥gra kodrader i Program som testar Count och Sort
 
-Påbyggnad Kata3
-8. Gör listan till en Lista av struct som innehåller DateTime och coloredSpots
-9. lägg till en class indexer till interface
+PÃ¥byggnad Kata3
+8. GÃ¶r listan till en Lista av struct som innehÃ¥ller DateTime och coloredSpots
+9. lÃ¤gg till en class indexer till interface
 10. Implementera indexern i VariousDates 
 
-11. Sort() ska sortera listan först efter ColoredSpots, sedan efter DateTime
+11. Sort() ska sortera listan fÃ¶rst efter ColoredSpots, sedan efter DateTime
 
-12. Ändra typen så att listan blir en lista av typen class istf struct
-13. Implementera ToString() så att elementet i listan kan skriva ut sig själv
+12. Ã„ndra typen sÃ¥ att listan blir en lista av typen class istf struct
+13. Implementera ToString() sÃ¥ att elementet i listan kan skriva ut sig sjÃ¤lv
